@@ -80,3 +80,69 @@ In a complex network, a criminal will try to break in via the lowest level of se
 
 Defence in depth and breath is a strategy to leverage security to provide redundancy, to buy time to detect and enact a response and to span the wide reaching end points and variety of security systems to provide a timely synchronised response. 
 
+### AAA
+Authentication (verify the identity of a person), authorisation (verify the persons has the correct permissions to access something) and accounting (recording the persons access by logging their activities) .
+
+
+# IAAA framework
+## Identity
+Information that unambiguously distinguishes one entity from another one in a given domain.
+
+Creating unique usenames. Not sharing usernames. Unique system to make sure it's all unique.
+
+Your username is the identity by which the system can account for your actions. Identities are used to uniquely name system processes so that the system can establish which processes are performing which tasks. 
+
+## Authentication 
+The provision of assurance that a claimed characteristic of an entity is correct. 
+	A user logs into a system with a username and password. 
+	Device authentication, a smart card authenticated to a card reader. 
+
+> The most common form of an entity being authenticated is that of a user but it may be a system process, remote computer, or a web service. 
+
+> ID&A --> identity and authentication 
+
+If you claim to be an entity, you must identify yourself via authentication to prove you are who you say you are. 
+
+## Access control and authorisation 
+
+This is a means to ensure that access to assets is authorised and restricted based on business and security requirements. 
+
+Rules to decide whether to grant access to requests
+
+Access rights allow authorised users to perform only authorised actions. 
+
+> A means to ensure that access to assets is authorised and restricted based on business and security requirements 
+
+To authorise is to define an access policy so the system can decide whether access request from authenticated entities are granted or denied. 
+
+> Example, system authorises HR staff to access employee records but normal users can't. 
+
+## Logging
+
+>  Records actions that are recorded and can be tracked back to the party responsible, whether things a user does to an object is recorded. 
+
+Looking at the audit trail is helpful when things fail. I.e seeing what time a stock trader performed a large trade, where and how. 
+
+An audit log is a document that records an event in an information technology system. Entries usually include destination, source address, timestamp and user login information.
+
+## Audit
+
+> Systematic, independant and documented process for obtaining audit evidence and evaluating it objectively to determine the extent to which the audit criteria are fulfilled. 
+
+- Shwoing the files opened or software executed
+- Physical security check
+
+Closely associated with accountability and in reality has a wide scope. Checking that processes, policies and procedures are followed. Checking security controls are functioning as expected and inspecting audit trails within computer systems to establish what actions given users were performing. 
+
+I.e details of what files were opened or who executed a particular software application 
+
+Check that the team is following physical security procedures for controlling access to your secure data centre. 
+
+## IAAA process and accountability 
+
+> Accountability is the ability to hold individuals, groups, companies and other organisations accountable for their actions. To help deter malicious or risky behaviour. 
+
+Ensures that the actions of an entity may be traced uniquely to the entity. 
+
+IAAA - Identification, authentication, authorisation, accountability/auditing 
+
